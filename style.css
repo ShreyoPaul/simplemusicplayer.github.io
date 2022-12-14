@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Inconsolata:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0%;
+}
+
+body {
+    margin: 10vh auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: rgb(179, 145, 219);
+    background: linear-gradient(to left, #1A7AD5, #9A4E6B);
+}
+
+.container {
+    box-shadow: 5px 5px 10px #1b4b7e,
+        -5px -5px 10px #877BA5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 480px;
+    padding: 2% 0;
+    border: 1px solid #756998;
+    border-left: #756998;
+    border-right: #5474B3;
+    border-top: #6B6CA1;
+    border-bottom: #5D71AD;
+    /*#BCEAD5*/
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.pic {
+    margin: 3%;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: #5c5c5c8c solid 1px;
+    box-shadow: 1.5px 1.5px 10px #4949496e,
+        -1.5px -1.5px 10px #bdbdbd;
+    /* object-fit:contain */
+}
+
+h1 {
+    width: 300px;
+    margin: 4% 0.5%;
+    text-align: center;
+    scale: 1.2;
+    /* color: #DEF5E5; */
+    color: black;
+    font-family: 'Inconsolata', monospace;
+}
+
+h3 {
+    width: 300px;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    /* color: #DEF5E5; */
+    color: black;
+    margin: 4% 0.5%;
+}
+
+.btns {
+    margin-top: 5%;
+    font-size: 40px;
+    scale: 1.6;
+    /* color: white; */
+    color: black;
+}
+
+button:hover {
+    scale: 1.1;
+}
+
+
+audio {
+    background: transparent;
+}
